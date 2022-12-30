@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Medium.eot');
+    src: url('../fonts/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Medium.woff2') format('woff2'),
+    url('../fonts/Heebo-Medium.woff') format('woff'),
+    url('../fonts/Heebo-Medium.ttf') format('truetype'),
+    url('../fonts/Heebo-Medium.svg#Heebo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn-Italic.eot');
+    src: url('../fonts/Vollkorn-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vollkorn-Italic.woff2') format('woff2'),
+    url('../fonts/Vollkorn-Italic.woff') format('woff'),
+    url('../fonts/Vollkorn-Italic.ttf') format('truetype'),
+    url('../fonts/Vollkorn-Italic.svg#Vollkorn-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 27px;
+}
+.container{
+    max-width: 1032px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+}
+.justify_end{
+    justify-content: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+#menu{
+    display: flex;
+    list-style: none;
+}
+header nav li{
+    margin-left: 33px;
+}
+header nav li a{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+header nav li:hover a{
+    transform: scale(1.2);
+}
+.main_banner{
+    padding-top: 140px;
+    padding-bottom: 71px
+}
+.main_banner_content{
+    max-width: 858px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: start;
+}
+.main_banner_text{
+    max-width: 497px;
+}
+.main_banner h1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+.main_banner p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 38px;
+}
+.main_banner a{
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 13px 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.main_banner_img{
+    max-width: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main_banner img{
+    width: 100%;
+    display: block;
+}
+.featured_works{
+    padding-top: 15px;
+    padding-bottom: 83px;
+}
+.featured_works_ctn{
+    max-width: 858px;
+    margin: auto;
+}
+.featured_works_ctn h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 22px;
+}
+.work{
+    margin-bottom: 31px;
+    border-bottom: 1px solid #E0E0E0;
+    justify-content: space-between;
+    align-items: start;
+}
+.work_img{
+    max-width: 246px;
+    margin-bottom: 15px;
+    margin-right: 18px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    display: block;
+}
+.work_specification{
+    max-width: 594px;
+}
+.work_specification h2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.work_year{
+    background: #142850;
+    border-radius: 16px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    margin-right: 26px;
+}
+article h5{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+article p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.feedback{
+    background-color: #000000;
+    padding-top: 69px;
+    padding-bottom: 37px;
+}
+.form{
+    max-width: 564px;
+    margin: auto;
+    text-align: center
+}
+.feedback label{
+    display:none;
+}
+.name{
+    background-color: rgba(255, 255, 255, 0.18);
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 18px 31px 17px 31px;
+    border: none;
+}
+.email{
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 18px 30px 17px 30px;
+    border: none;
+}
+.budget{
+    background-color: rgba(255, 255, 255, 0.18);
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 18px 31px 17px 31px;
+    border: none;
+}
+.project{
+    resize: none;
+    height: 127px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 17px 31px 88px 31px;
+    margin-bottom: 22px;
+    border: none;
+}
+.button{
+    background-color: transparent;
+    border-radius: 2px;
+    border: solid 1px #7EC4BD;
+    cursor: pointer;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #8BCAC3;
+    padding: 15px 60px;
+}
+footer{
+    padding-top: 51px;
+    padding-bottom: 54px;
+}
+.socials{
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 26px;
+}
+footer li{
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+}
+footer li i{
+    width: 100%;
+    font-size: 30px;
+    color: #21243D;
+}
+footer p{
+    align-items: center;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+
+
+
+
+
+
